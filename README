@@ -1,0 +1,9 @@
+Howdy,
+
+Welcome to my Splitter program and the following up the LHA program.
+
+When run, Splitter takes the FullDat.txt file and compares the timestamps to the RunTimes.txt file. The FullDat.txt represents all the data pulled from a pressure gauge during a run experiment, and what the program does is take the one big data file you see and splits it up into the individual runs in the runs folder. This was done because not all runs were immediately nessecary for data collection. Some were runs done for calibration purposes for example, or runs done to make sure the whole experimental apparatus was still working while we fixed an individual system.
+
+The follow up LHA program in the Runs folder then goes through each individual run file and finds the lowest value, the highest value, and the average value. The results in the lha folder are txt files that can then be easily run through grace to get representations of how pressure behaved out of that nozzle during the experiment.
+
+-Jason
